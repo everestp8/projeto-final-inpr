@@ -1,0 +1,67 @@
+
+{    
+    "head": {
+        "name": "Sample File",
+        "creator": "everestp8",
+        "options_title": "Opções: ",
+        "err_msg": "Opção inválida! Digite m para abrir o menu de opções."
+    },
+    "body": {
+        "type": "menu",
+        "title": "Tudo sobre tralalas",
+        "exit_with_q": true,
+        "msg": [
+            "Boa tarde, este programa fará você aprender sobre etc etc",
+            "Aperte M para verificar as opções e Q para retornar.",
+            "vamos começar!" 
+        ],
+        "nodes": [
+            {
+                "type": "text",
+                "title": "O que são tralalas?",
+                "values": [ "Tralaas são sample text sample text sample text.", "Mais sample text sample text"]
+            },
+            {
+                "type": "menu",
+                "title": "Tipos de tralala",
+                "msg": [ "Existem vários tipos de tralala.", "alguns destes são:" ],
+                "show_opts": true,
+                "nodes": [
+                    {
+                        "type": "text",
+                        "title": "Tralala Lala",
+                        "values": [ "Tralalas Lalas são muito bons pois leidonspeilons zulibatos.", "Também importantes para zakrabun." ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Tralala Lele",
+                        "values": [ "Tralalas Leles são muito ruins pois pidosbutinos", "Também importantes leidoscapos." ]
+                    }
+                ]
+            },
+            {
+                "type": "menu",
+                "title": "Quizz dos Tralalas",
+                "msg": [ "Escolha uma dificuldade: " ],
+                "show_opts": true,
+                "nodes": [
+                    {
+                        "type": "quizz",
+                        "title": "Nível médio",
+                        "values": [ "Não tem quizz ainda :(" ]
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "title": "Fontes",
+                "values": [
+                    "Fontes usadas na pesquisa sobre tralalas:\n",
+                    "GOMES, Manoel. Caneta Azul. 1500. Disponível em <https//clonacartao.ru>. Acesso em 1984.",
+                    "MEMES, South America. Eis que. 1010. Disponível em <https//sam.huehue.br>. Acesso em 1945.",
+                    "PORTIOLLI, Celso. Envolvimento. 2001. Disponível em <https//cia.gov.us>. Acesso em 11 set. 2001"
+                ]
+            }
+        ]
+    }
+}
