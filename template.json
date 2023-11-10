@@ -25,7 +25,6 @@
                 "type": "menu",
                 "title": "Tipos de tralala",
                 "msg": [ "Existem vários tipos de tralala.", "alguns destes são:" ],
-                "show_opts": true,
                 "nodes": [
                     {
                         "type": "text",
@@ -43,7 +42,6 @@
                 "type": "menu",
                 "title": "Quizz dos Tralalas",
                 "msg": [ "Escolha uma dificuldade: " ],
-                "show_opts": true,
                 "nodes": [
                     {
                         "type": "quizz",

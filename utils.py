@@ -9,8 +9,8 @@ def read_json(file_name: str) -> dict:
 def print_msgs(msgs: list) -> None:
     for x in msgs: print(x)
 
-def show_node_title(node_obj: dict) -> None:
-    print('#', node_obj.get('title'), end='\n\n')
+def show_node_title(node_title: str) -> None:
+    print('#', node_title, end='\n\n')
 
 def show_menu_options(menu_nodes: list):
     for i in range(0, len(menu_nodes)):
