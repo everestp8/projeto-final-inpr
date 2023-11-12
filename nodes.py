@@ -47,6 +47,7 @@ def handle_menu(menu_obj: dict):
     ## Show all messages, if any
     if menu_obj.get('msg'):
         u.print_msgs(menu_obj.get('msg'))
+    print()
     ## Show options automatcally
     u.show_menu_options(menu_obj.get('nodes'))
     
@@ -75,6 +76,7 @@ def handle_menu(menu_obj: dict):
             u.show_node_title(menu_obj.get('title'))
             if menu_obj.get('msg'):
                 u.print_msgs(menu_obj.get('msg'))
+            print()
             u.show_menu_options(menu_obj.get('nodes'))
         except (IndexError, ValueError) as _:
             print('Opção inválida! Digite M para abrir o menu de opções', end='')

@@ -11,7 +11,7 @@
         "title": "Tudo sobre tralalas",
         "exit_with_q": true,
         "msg": [
-            "Boa tarde, este programa fará você aprender sobre etc etc",
+            ":y:Boa tarde::, este :g:programa fará você aprender sobre:: etc etc",
             "Aperte M para verificar as opções e Q para retornar.",
             "vamos começar!" 
         ],
