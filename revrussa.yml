@@ -1,0 +1,50 @@
+head:
+  name: 'Revolução Russa'
+  creator: 'Charles Evaristo'
+
+body:
+  type: 'menu'
+  title: 'Revolução Russa'
+  root: true
+  msg:
+    - 'Olá, pequeno garfanhoto!'
+    - 'Este programa foi desenvolvido para lhe ensinar de uma forma :y:dinâmica:: e :y:divertida::, tudo sobre a :r:Revolução Russa:: de 1917.'
+    - 'Utilize Q para sair do programa e R para retornar.'
+  nodes:
+    - type: 'text'
+      title: 'O que foi a Revolução Russa'
+      values:
+        - 'A Revolução Russa de 1917 consistiu em dois levantes populares: o primeiro ocorrido em fevereiro, contra o governo do czar Nicolau II, e o segundo, em outubro.'
+        - 'Na Revolução de Fevereiro, os revolucionários aboliram a monarquia e, na Revolução de Outubro, começaram a implantar um regime de governo baseado em ideias socialistas.'
+    
+    - type: 'menu'
+      title: 'Exercícios'
+      msg: 
+        - 'Lista de exercícios sobre a :r:Revolução Russa:: ordenados por dificuldade. Boa sorte!'
+      nodes:
+        - type: 'quizz'
+          title: 'Nível Fácil'
+          msg: 
+            - 'Perguntas sobre etc, etc e etc.'
+          questions:
+            - text:
+                - 'Quem foi o líder dos bolcheviques?'
+              answers:
+                - 'a) Lenin'
+                - 'b) Stalin'
+                - 'c) Leon Trótski'
+                - 'd) Karl Marx'
+              correct_answer: 0
+            - text:
+                - 'O que foi o Domingo Sangrento?'
+              answers:
+                - 'a) Dia onde ocorreu uma revolta armada dos operários contra Nicolau II'
+                - 'b) Dia onde ocorreu uma manifestação pacífica dos operários respondida com um massacre pelo czar'
+                - 'c) Dia onde ocorreu uma manifestação armada dos Bolcheviques liderados por Lenin'
+                - 'd) Dia onde ocorreu um massacre realizado pelo Czar aos Mencheviques liderados por Trótski'
+              correct_answer: 1
+    
+    - type: 'text'
+      title: 'Referências'
+      values:
+        - 'BEZERRA, Juliana. Revolução Russa (1917). Toda Matéria, [s.d.]. Disponível em: https://www.todamateria.com.br/revolucao-russa/. Acesso em: 11 nov. 2023'
