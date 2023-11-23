@@ -39,6 +39,7 @@ def handle_quizz(quizz_obj: dict):
         print()
         u.print_msgs(q.get('answers'), wrap=True)
         
+        quizz_exit = False
         while True:
             try:
                 user_opt = input('> ').lower()
@@ -47,6 +48,7 @@ def handle_quizz(quizz_obj: dict):
             
             if user_opt == 'r':
                 if u.get_confimation('- Quer mesmo parar o exercício?'):
+                    quizz_exit = True 
                     break
             
             isright = False
@@ -63,8 +65,9 @@ def handle_quizz(quizz_obj: dict):
                 score += 1
             else:
                 print(u.colorize(':r:- Que pena! Você errou :(::'))
-            u.wait_enter('pressione enter para contnuar')
+            u.wait_enter('pressione enter para continuar')
             break
+        if quizz_exit: break
     
     u.clear()
     print('# Pontuação\n')

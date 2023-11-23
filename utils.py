@@ -17,7 +17,7 @@ COLORS = {
 def colorize(text: str) -> str:
     for color in COLORS.keys():
         text = text.replace(color, COLORS.get(color))
-    return text
+    return text.replace('\\t', '\t')
 
 # def read_json(file_name: str) -> dict:
 #     with io.open(file_name, mode='r', encoding='utf-8') as file:
@@ -28,9 +28,11 @@ def read_file(file_name: str) -> dict:
         return yaml.safe_load(file)
 
 def print_msgs(msgs: list, wrap=False) -> None:
+    # TO-DO: Reescrever essa função
     if wrap:
         for x in msgs:
-            print(colorize('\n'.join(textwrap.wrap(x, 80, break_long_words=False))))
+            wrapped_text = '\n'.join(textwrap.wrap(x, 80, break_long_words=False))
+            print(colorize(wrapped_text))
     else:
         for x in msgs:
             print(colorize(x))

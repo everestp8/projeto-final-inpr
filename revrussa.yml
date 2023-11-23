@@ -14,9 +14,60 @@ body:
     - type: 'text'
       title: 'O que foi a Revolução Russa'
       values:
-        - 'A Revolução Russa de 1917 consistiu em dois levantes populares: o primeiro ocorrido em fevereiro, contra o governo do czar Nicolau II, e o segundo, em outubro.'
-        - 'Na Revolução de Fevereiro, os revolucionários aboliram a monarquia e, na Revolução de Outubro, começaram a implantar um regime de governo baseado em ideias socialistas.'
+        - '\tA :r:Revolução Russa:: foi um processo revolucionário que aconteceu na Rússia, sendo o responsável por transformar esse país no primeiro país socialista da história da humanidade. Esse evento se deu quando os bolcheviques realizaram um levante armado, chegando ao poder no que ficou conhecida como :b:Revolução de Outubro::.'
+        - '\tA ascensão dos bolcheviques ao poder tem relação direta com a situação da Rússia no começo do século XX. O país possuía uma sociedade profundamente desigual, com um governo aristocrático e autoritário, e ainda sofria as consequências da :p:Primeira Guerra Mundial::. O grande líder dos bolcheviques nesse processo foi :p:Vladimir Lenin::.'
     
+    - type: 'text'
+      title: 'Antecedentes da Revolução Russa'
+      values:
+        - '\tNo começo do século XX, a Rússia possuía vários entraves, além de ser um país que estava bastante atrasado no processo de industrialização em relação a outras nações europeias. O país ainda dependia excessivamente da agricultura, possuindo apenas dois grandes polos industriais: Moscou e São Petersburgo.'
+        - '\tAlém disso, a desigualdade social existente na Rússia era gigantesca e o país possuía uma sociedade profundamente estratificada. A sociedade russa possuía como principais grupos a nobreza, em geral proprietários de terra; o clero, os membros da Igreja Ortodoxa; camponeses; e operários. Essa desigualdade social era percebida na condição dessas classes, pois as duas primeiras eram privilegiadas, mantendo uma vida luxuosa, enquanto camponeses e operários vivam em uma condição de pobreza significativa.'
+        - '\tNo aspecto político, a Rússia era governada por uma monarquia absolutista que recebeu o nome de czarismo. A autoridade máxima na Rússia era o czar, título correspondente ao de imperador, e o país possuía a mesma dinastia no poder desde 1613: a dinastia dos Romanov. Essa dinastia era conhecida por seu autoritarismo, perseguindo opositores e mantendo o status quo do país, marcado pela desigualdade social, atraso tecnológico e pobreza.'
+    
+    - type: 'text'
+      title: 'Mencheviques e bolcheviques'
+      values:
+        - '\tNa virada do século XIX para o XX, o czar da Rússia era Nicolau II. A monarquia absolutista dos czares era questionada por muitos grupos da sociedade russa, e uma parcela significativa desses opositores era formada por socialistas, social-democratas, comunistas, anarquistas, entre outros. Todos eles sofriam com a repressão czarista que atuava, principalmente, pelo envio de opositores para as gulags.'
+        - '\tNesse contexto, um dos principais focos de oposição ao czarismo na Rússia era o Partido Operário Social-Democrata Russo (POSDR). Esse partido foi fundado em 1898, reunindo vários grupos revolucionários que atuavam na Rússia, e os principais objetivos eram derrubar o czarismo e estabelecer o socialismo na Rússia.'
+        - '\tEm 1903, o POSDR organizou um congresso em Londres, e esse evento ficou marcado por ter gerado um racha enorme no partido. Surgiram dois grupos que possuíam propostas distintas para o cenário político da Rússia. Esses grupos receberam o nome de mencheviques (minoria) e bolcheviques (maioria).'
+        - '\tOs bolcheviques defendiam o caminho revolucionário para o socialismo chegar ao poder. Isso permitiria a implantação da ditadura do proletariado para que o socialismo se consolidasse no país e o comunismo fosse estabelecido no momento certo. O líder desse grupo era Vladimir Lenin.'
+        - '\tJá os mencheviques afirmavam que a Rússia não estava pronta para a implantação do socialismo e não acreditavam na via revolucionária. Defendiam que o capitalismo russo deveria se desenvolver e, a partir disso, realizar algumas reformas que combatessem a desigualdade e os grandes entraves da sociedade russa. Eram liderados por Julius Martov.'
+    
+    - type: 'text'
+      title: 'Quais as causas da Revolução Russa?'
+      values:
+        - '\tA grande causa para que a Revolução Russa acontecesse foi a insatisfação com a situação do país e a forma que ele era governado pelos czaristas. O atraso do país na economia, a desigualdade social e a pobreza que grande parte do país vivia e o autoritarismo do czar Nicolau II acabaram sendo fatores que alimentaram a oposição ao regime.'
+        - '\tOutros eventos, como o Domingo Sangrento, contribuíram para tornar o czar e o seu regime impopulares, dando forças para que o POSDR conquistasse apoio e espaço no cenário político russo.'
+    
+    - type: 'menu'
+      title: 'Quais as fases da Revolução Russa?'
+      msg:
+        - 'A Revolução Russa foi dividida em duas fases, com dois importantes momentos acontecendo em fevereiro e outubro de 1917.'
+      nodes:
+        - type: 'text'
+          title: 'Revolução de Fevereiro'
+          values:
+            - '\tA situação da Rússia se agravou consideravelmente ao longo do começo do século XX. O envolvimento do país em conflitos, como a Guerra Russo-Japonesa e a Primeira Guerra Mundial, afetaram profundamente o país, aumentando o sofrimento da população mais pobre, sobretudo pela falta de alimentos que atingiu o país.'
+            - '\tNa Primeira Guerra Mundial, a Rússia aliou-se com França e Reino Unido, sendo parte da Tríplice Aliança. O envolvimento russo no conflito foi desastroso. O país acumulou derrotas, perdeu territórios para a Alemanha e aumentou o sofrimento de sua população, pois passou a enfrentar uma severa crise econômica.'
+            - '\tA guerra era impopular, e isso fez com que a população se tornasse extremamente insatisfeita com o czarismo. Em fevereiro de 1917, trabalhadores invadiram a Duma, o que resultou na formação de um novo governo na Rússia. Os soldados de Nicolau II haviam abandonado os seus postos e se juntado ao povo, fazendo o czar abdicar do trono.'
+            - '\tCom a abdicação do czar foi formado o Governo Provisório, liderado primeiro por Georgy Lvov e depois Aleksandr Kerensky na posição de primeiro-ministro. O Governo Provisório, no entanto, não retirou a Rússia da guerra, o que manteve a população russa insatisfeita. Com o novo governo, Lenin retornou à Rússia para dar força ao processo revolucionário.'
+        - type: 'text'
+          title: 'Revolução de Outubro'
+          values:
+            - '\tDurante o Governo Provisório, Lenin liderou o esforço bolchevique para chegar ao poder russo. Lenin exigia a saída da Rússia da guerra e defendia o lema “pão, paz e terra”, alegando serem essas as grandes necessidades do povo russo. A agitação social era grande, e os bolcheviques fortaleceram-se, permitindo que eles pudessem tomar o poder.'
+            - '\tEm outubro de 1917, os bolcheviques invadiram o Palácio de Inverno e assumiram os principais prédios governamentais da Rússia. O líder do Governo Provisório, Aleksandr Kerensky, fugiu, e os bolcheviques tiveram caminho livre para assumir o poder. Com isso, os bolcheviques chegaram ao poder e Lenin tornou-se governante do país.'
+
+    - type: 'text'
+      title: 'Consequências da Revolução Russa'
+      values:
+        - '\tA Revolução Russa é um dos acontecimentos mais importantes do século XX, pois alterou radicalmente o curso desse século. Uma das primeiras consequências desse acontecimento foi o fortalecimento do socialismo enquanto alternativa ideológica no planeta. O resultado disso foi a consolidação de grupos socialistas em diversas partes do planeta e o surgimento de outros governos socialistas ao longo do século XX.'
+        - '\tEsse fortalecimento do socialismo acabou contribuindo para o início da Guerra Fria, por exemplo, e a polarização do mundo em capitalismo e socialismo. No contexto russo, algumas das consequências da revolução foram:'
+        - ''
+        - '* saída da guerra por meio do Tratado Brest-Litovsk;'
+        - '* nacionalização das terras e das indústrias;'
+        - '* reforma agrária;'
+        - '* guerra civil.'
+
     - type: 'menu'
       title: 'Exercícios'
       msg: 
@@ -25,26 +76,145 @@ body:
         - type: 'quizz'
           title: 'Nível Fácil'
           msg: 
-            - 'Perguntas sobre etc, etc e etc.'
+            - 'Perguntas sobre a :b:introdução:: à :r:Revolução Russa::, as :b:consequências:: e suas :b:fases::.'
           questions:
             - text:
-                - 'Quem foi o líder dos bolcheviques?'
+                - 'Quem foi o líder do partido bolchevique que desempenhou um papel crucial na Revolução de Outubro de 1917?'
               answers:
-                - 'a) Lenin'
-                - 'b) Stalin'
+                - 'a) Vladimir Lenin'
+                - 'b) Joseph Stalin'
                 - 'c) Leon Trótski'
                 - 'd) Karl Marx'
               correct_answer: 0
             - text:
-                - 'O que foi o Domingo Sangrento?'
+                - 'Quem era o líder czarista durante o início da Revolução Russa, em 1917?'
               answers:
-                - 'a) Dia onde ocorreu uma revolta armada dos operários contra Nicolau II'
-                - 'b) Dia onde ocorreu uma manifestação pacífica dos operários respondida com um massacre pelo czar'
-                - 'c) Dia onde ocorreu uma manifestação armada dos Bolcheviques liderados por Lenin'
-                - 'd) Dia onde ocorreu um massacre realizado pelo Czar aos Mencheviques liderados por Trótski'
+                - 'a) Czar Alexandre III'
+                - 'b) Czar Nicolau II'
+                - 'c) Czarina Alexandra'
+                - 'd) Grigori Rasputin'
               correct_answer: 1
+            - text:
+                - 'Qual foi o nome do tratado que marcou a retirada da Rússia da Primeira Guerra Mundial em 1918?'
+              answers:
+                - 'a) Tratado de Versalhes'
+                - 'b) Tratado de Brest-Litovski'
+                - 'c) Tratado de Tordesilhas'
+                - 'd) Tratado de Yalta'
+              correct_answer: 1
+            - text:
+                - 'Qual foi o lema popular dos manifestantes durante o início da Revolução Russa, simbolizando suas demandas?'
+              answers:
+                - 'a) "Paz e pão"'
+                - 'b) "Pão e Terra"'
+                - 'c) "Paz, pão e terra"'
+                - 'd) "Pão e mortadela"'
+              correct_answer: 2
+            - text:
+                - 'Qual foi o nome dado ao período de guerra civil que se seguiu à Revolução Russa, envolvendo os bolcheviques e seus opositores?'
+              answers:
+                - 'a) Guerra dos Tronos'
+                - 'b) Revolta Camponesa'
+                - 'c) Revolta Outubrista'
+                - 'd) Guerra Civil Russa'
+              correct_answer: 3
+        
+        - type: 'quizz'
+          title: 'Nível Médio'
+          msg: 
+            - 'Perguntas sobre os :b:antecedentes:: da :r:Revolução Russa::, as :b:consequências:: e suas :b:fases::.'
+          questions:
+            - text:
+                - 'Qual foi o papel de Leon Trótski na Revolução Russa e no governo bolchevique?'
+              answers:
+                - 'a) Comandante do Exército Branco'
+                - 'b) Líder dos Mencheviques'
+                - 'c) Principal estrategista militar bolchevique'
+                - 'd) Diplomata nas negociações de paz'
+              correct_answer: 2
+            - text:
+                - 'Quais foram as principais causas econômicas que contribuíram para o descontentamento popular durante a Revolução Russa?'
+              answers:
+                - 'a) Industrialização acelerada e aumento do padrão de vida'
+                - 'b) Crescimento econômico estável e redistribuição equitativa de terras'
+                - 'c) Inflação galopante e escassez de alimentos'
+                - 'd) Expansão agrícola e fortalecimento da aristocracia'
+              correct_answer: 2
+            - text:
+                - 'Qual foi o evento que ficou conhecido como "Domingo Sangrento" e teve um impacto significativo no início da Revolução Russa?'
+              answers:
+                - 'a) A abdicação do czar Nicolau II'
+                - 'b) O massacre de manifestantes em frente ao Palácio de Inverno'
+                - 'c) A Revolta dos Camponeses'
+                - 'd) A assinatura do Tratado de Brest-Litovski'
+              correct_answer: 1
+            - text:
+                - 'Onde ocorreu o episódio conhecido como a "Revolta de Outubro" durante a Revolução Russa de 1917?'
+              answers:
+                - 'a) Praça Vermelha, Moscou'
+                - 'b) Palácio de Inverno, São Petersburgo'
+                - 'c) Fortaleza de Pedro e Paulo, Moscou'
+                - 'd) Catedral de São Basílio, Moscou'
+              correct_answer: 1
+            - text:
+                - 'Durante a Revolução Russa, qual grupo defendia a monarquia e opunha-se às mudanças propostas pelos bolcheviques?'
+              answers:
+                - 'a) Mencheviques'
+                - 'b) Cadetes'
+                - 'c) Exército Branco'
+                - 'd) Sovietes'
+              correct_answer: 2
+    
+        - type: 'quizz'
+          title: 'Nível Difícil'
+          msg: 
+            - 'Perguntas sobre a :b:introdução:: à :r:Revolução Russa::, as :b:consequências:: e suas :b:fases::.'
+          questions:
+            - text:
+                - 'A Revolução Russa de 1917 derrubou o regime czarista e estabeleceu o socialismo no país.'
+                - ''
+                - 'Assinale a alternativa correta em relação às medidas adotadas pelo novo governo:'
+              answers:
+                - 'a) Com a abdicação do Czar, estabeleceu-se uma aliança política entre os líderes do regime czarista e os dirigentes do governo provisório.'
+                - 'b) Lenin, prisioneiro político exilado na Sibéria, ficou excluído do processo revolucionário.'
+                - 'c) O governo socialista colocou em prática, imediatamente, o projeto de reconstrução da economia, a Nova Política Econômica (NEP).'
+                - 'd) A fase inicial do processo caracterizou-se pela alteração nas leis dos direitos civis, pela anulação dos títulos de nobreza, pela separação entre Igreja e Estado, pela reforma agrária e pelo fim da propriedade privada.'
+              correct_answer: 3
+            - text:
+                - 'Sobre o contexto social da Rússia, anterior à Revolução Bolchevique de 1917, é incorreto dizer que:'
+              answers:
+                - 'a) A grande massa da população era camponesa, reflexo das condições econômicas e sociais anteriores, havendo grande concentração fundiária nas mãos de poucos.'
+                - 'b) A industrialização estava restrita a poucas cidades, como Moscou e São Petersburgo, e fora financiada, em grande parte, pelo capital europeu ocidental.'
+                - 'c) Apresentava uma burguesia forte e organizada, com um projeto revolucionário amadurecido, que defendia, entre outros aspectos, a criação de uma República no lugar do governo czarista.'
+                - 'd) O proletariado enfrentava péssimas condições de vida nas cidades, fruto dos baixos salários, mas dispunha de um certo grau de organização política, que possibilitava sua mobilização.'
+              correct_answer: 2
+            - text:
+                - 'Considerando-se em conjunto a Revolução de 1905 na Rússia, quanto às suas características e resultados principais, pode-se afirmar que, do ponto de vista das origens de 1917, sua maior importância foi:'
+              answers:
+                - 'a) Possibilitar a instalação de uma Monarquia Constitucional, dando liberdade aos partidos políticos.'
+                - 'b) Conceder autonomia às várias nacionalidades do Império Russo, além de revelar o acerto dos populistas.'
+                - 'c) Permitir a eleição da Duma e completar a abolição da servidão beneficiando milhões de camponeses.'
+                - 'd) Suscitar o aparecimento dos sovietes, demonstrar o peso decisivo do problema agrário e revelar a fraqueza da burguesia.'
+              correct_answer: 3
+            - text:
+                - 'Uma das consequências da Revolução de Fevereiro de 1917 foram:'
+              answers:
+                - 'a) As vitórias do Exército russo na frente alemã e o estabelecimento de uma Constituição.'
+                - 'b) O afastamento dos democratas do governo e a adesão do Exército à Revolução.'
+                - 'c) Adesão de oficiais à revolução e abdicação do czar.'
+                - 'd) O estabelecimento de uma democracia liberal e a assinatura do Tratado de Brest-Litovsk'
+              correct_answer: 2
+            - text:
+                - 'A vitória da Revolução de Outubro de 1917 não garantiu a estabilidade política da Rússia que se viu tomada por uma guerra civil travada entre:'
+              answers:
+                - 'a) O exército liderado por Trotsky contra as forças armadas patrocinadas por nobres e burgueses.'
+                - 'b) A guarda imperial, fiel ao czar, contra os bolcheviques, liderados por Lenin.'
+                - 'c) O exército russo contra milícias rurais que tinham o auxílio dos operários urbanos.'
+                - 'd) O exército vermelho contra o exército branco, apoiado pelo czar'
+              correct_answer: 0
     
     - type: 'text'
-      title: 'Referências'
+      title: 'Fontes'
       values:
         - 'BEZERRA, Juliana. Revolução Russa (1917). Toda Matéria, [s.d.]. Disponível em: https://www.todamateria.com.br/revolucao-russa/. Acesso em: 11 nov. 2023'
+        - 'NEVES, Daniel. Revolução Russa. Mundo da Educação, [s.d.]. Disponível em: https://mundoeducacao.uol.com.br/historiageral/revolucao-russa.htm/. Acesso em: 11 nov. 2023'
